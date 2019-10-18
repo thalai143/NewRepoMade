@@ -9,6 +9,7 @@ public class ieja {
 		System.setProperty("webdriver.edge.driver", "C:\\Users\\TST\\Documents\\msedgedriver.exe");
 		WebDriver driver=new EdgeDriver();
 		driver.get("http://www.google.com");
+		//added new comment
 		System.out.println(driver.getTitle());	
 	}
 
